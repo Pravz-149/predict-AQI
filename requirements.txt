@@ -1,4 +1,4 @@
-streamlit==0.90.0
+streamlit==1.23.1
 pandas==1.4.0
 joblib==1.0.1
 requests==2.26.0
