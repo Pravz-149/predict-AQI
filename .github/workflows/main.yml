@@ -25,3 +25,6 @@ jobs:
         
       - name: Train the model and find the best model
         run: python model.py
+        
+      - name: Pick the best model and deploy streamlit app
+        run: streamlit app.py
