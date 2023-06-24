@@ -1,4 +1,4 @@
-name: Automate Feature Script
+name: Automate all scripts
 
 on:
   schedule:
