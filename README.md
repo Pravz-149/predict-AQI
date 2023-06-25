@@ -1,4 +1,4 @@
-# predict-AIQ
+# predict-AIQ  (https://pravz-149-predict-aqi-app-1yu5zc.streamlit.app/)
 Title: Predict Air Quality Index (AQI) in your City
 
 Objective: To develop an AQI app that provides real-time information, precautions
@@ -6,7 +6,7 @@ By taking the historical raw data of pollutants
 
 Plan Implementation and Execution Process:
 1. Data Collection: Gather historical and real-time data on pollutant concentrations from reliable sources from https://openweathermap.org/api
-2. Data Preprocessing: Handling Missing Values, Set Date Index, Outliers etc
+2. Data Preprocessing: Handling Missing Values, Set Date Index, Outliers, etc
 3. AQI Calculation: Calculate the AQI based on pollutant concentrations - built functions
 4. User Interface: Design a user-friendly interface to present the AQI information, precautions, and forecasted data.
 5. Model Training: Developed a script to train the model using the pollutant AQI as features and the resultant AQI as the target. Random Forest Regressor performed best 
@@ -28,8 +28,8 @@ Assumptions:
 
 App Working Process(https://pravz-149-predict-aqi-app-1yu5zc.streamlit.app/):
 1. User selects a date or manually enters pollutant concentrations.
-2. If a date is selected, the app retrieves the corresponding AQI category and recommends precautions.
-3. If no date is selected, the user can input pollutant concentrations manually.
+2. If the date selected is in DB, the app retrieves the corresponding AQI category and recommends precautions.
+3. If the date selected doesn't exist in DB, the user can input pollutant concentrations manually.
 4. The app calculates the AQI and displays the category along with precautions.
 5. The forecasted data is presented to the user, allowing them to plan activities accordingly.
 
