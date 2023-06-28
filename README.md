@@ -40,4 +40,6 @@ Results:
 Limitations:
 1. Limited availability of historical and real-time data on pollutant concentrations.
 2. Complexities in implementing time series forecasting models for accurate predictions.
+<img width="601" alt="image" src="https://github.com/Pravz-149/predict-AQI/assets/100998718/96be0b49-064d-48e8-a70d-e4b734a24128">
+3.Since the data is being fetched using a Free API, there is a limitation of a maximum retry error in a few cases. Consequently, the code stops executing in the script.
 
