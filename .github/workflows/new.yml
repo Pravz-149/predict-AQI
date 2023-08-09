@@ -2,7 +2,7 @@ name: new workflow
 
 on:
   schedule:
-    - cron: "54 10 * * *"
+    - cron: "59 10 * * *"
 
 jobs:
   run-feature-script:
