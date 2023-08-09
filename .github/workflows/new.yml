@@ -1,8 +1,8 @@
-name: Automate all scripts
+name: new workflow
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "18 16 * * *"
 
 jobs:
   run-feature-script:
