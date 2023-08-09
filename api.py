@@ -96,7 +96,7 @@ def get_aqi_data(location_name):
 
     df['pm25_AQI'] = df['pm2_5'].apply(lambda x: pm25_aqi(x, 'pm25'))
     df['pm10_AQI'] = df['pm10'].apply(lambda x: pm10_aqi(x, 'pm10'))
-    df['o3_AQI'] = df['o3'].apply(lambda x: pm10_aqi(x, 'o3'))
+    #df['o3_AQI'] = df['o3'].apply(lambda x: pm10_aqi(x, 'o3'))
     df['so2_AQI'] = df['so2'].apply(lambda x: so2_aqi(x, 'so2'))
     df['no2_AQI'] = df['no2'].apply(lambda x: no2_aqi(x, 'no2'))
 
