@@ -22,7 +22,7 @@ def get_aqi_data(location_name):
         "lon": longitude,   # Longitude of Bengaluru
         "start": int(datetime(2015, 1, 1).replace(tzinfo=timezone.utc).timestamp()),   # Start timestamp
         "end": int(datetime.now().replace(tzinfo=timezone.utc).timestamp()),   # End timestamp
-        "appid": "af5992ad581f3270db0697b8b751b8fa"  # Replace with your actual API key
+        "appid": "a1628122cfe7168773dd945517b21737"  # Replace with your actual API key
     }
 
     # Send the GET request
